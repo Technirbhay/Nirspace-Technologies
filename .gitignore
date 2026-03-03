@@ -1,0 +1,43 @@
+# =========================
+# NODE MODULES
+# =========================
+node_modules/
+client/nirspace-tech/node_modules/
+server/node_modules/
+
+# =========================
+# ENV FILES 🔥
+# =========================
+.env
+.env.*
+client/nirspace-tech/.env
+client/nirspace-tech/.env.*
+server/.env
+server/.env.*
+
+# =========================
+# BUILD FILES
+# =========================
+build/
+dist/
+client/nirspace-tech/build/
+client/nirspace-tech/dist/
+server/dist/
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
