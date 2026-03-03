@@ -1,0 +1,26 @@
+.about-title{
+  text-align:center;
+  font-size:42px;
+  margin-bottom:50px;
+  color:#38bdf8;
+}
+
+.about-content{
+  max-width:900px;
+  margin:auto;
+}
+
+.about-content p{
+  margin-bottom:25px;
+  line-height:1.9;
+  color:#cbd5f5;
+  font-size:18px;
+}
+
+/* subtle glass feel */
+.about-content{
+  background:rgba(255,255,255,0.03);
+  padding:40px;
+  border-radius:15px;
+  border:1px solid rgba(255,255,255,0.1);
+}

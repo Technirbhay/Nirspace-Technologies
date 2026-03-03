@@ -1,0 +1,33 @@
+.project-form{
+text-align:center;
+}
+
+.project-form form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+background:rgba(255,255,255,0.04);
+padding:40px;
+border-radius:15px;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.project-form input,
+.project-form textarea,
+.project-form select{
+padding:14px;
+background:#020617;
+color:white;
+border:1px solid rgba(255,255,255,0.1);
+border-radius:8px;
+}
+
+.project-form button{
+padding:14px;
+background:#38bdf8;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}

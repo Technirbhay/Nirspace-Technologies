@@ -1,0 +1,18 @@
+.start-project{
+text-align:center;
+}
+
+.project-options{
+margin-top:40px;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.project-options a{
+padding:14px 30px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+}

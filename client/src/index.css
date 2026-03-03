@@ -1,0 +1,29 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #020617,
+    #0f172a,
+    #020617
+  );
+  color: white;
+}
+
+/* Glass Card */
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.glass:hover {
+  transform: translateY(-5px);
+}
+
+html{
+scroll-behavior:smooth;
+}

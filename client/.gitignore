@@ -1,0 +1,82 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# NODE MODULES (ALL LEVELS)
+# =========================
+node_modules/
+nirspace/node_modules/
+nirspace/client/nirspace-tech/node_modules/
+nirspace/server/node_modules/
+
+# =========================
+# ENV FILES (VERY IMPORTANT 🔥)
+# =========================
+.env
+.env.*
+nirspace/.env
+nirspace/.env.*
+nirspace/client/nirspace-tech/.env
+nirspace/client/nirspace-tech/.env.*
+nirspace/server/.env
+nirspace/server/.env.*
+
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# BUILD / DIST
+# =========================
+build/
+dist/
+nirspace/client/nirspace-tech/build/
+nirspace/client/nirspace-tech/dist/
+nirspace/server/dist/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# CACHE / TEST
+# =========================
+coverage/
+.cache/

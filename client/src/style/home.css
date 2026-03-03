@@ -1,0 +1,14 @@
+.home{
+  width:100%;
+  overflow:hidden;
+}
+
+/* smooth section spacing */
+.home section{
+  position:relative;
+}
+
+/* scroll smooth feel */
+html{
+  scroll-behavior:smooth;
+}

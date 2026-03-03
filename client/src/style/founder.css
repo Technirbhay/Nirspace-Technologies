@@ -1,0 +1,46 @@
+.founder-wrapper{
+display:flex;
+align-items:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.founder-image img{
+width:320px;
+border-radius:20px;
+border:2px solid rgba(255,255,255,0.1);
+}
+
+.founder-content{
+flex:1;
+}
+
+.founder-content h2{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+.founder-content h3{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.founder-content p{
+margin-bottom:15px;
+color:#cbd5f5;
+line-height:1.7;
+}
+
+.founder-content button{
+margin-top:20px;
+padding:12px 28px;
+border:none;
+background:#38bdf8;
+border-radius:8px;
+cursor:pointer;
+transition:.3s;
+}
+
+.founder-content button:hover{
+transform:scale(1.05);
+}
