@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Nirspace-Technologies/static/css/main.cc54207c.css",
-    "main.js": "/Nirspace-Technologies/static/js/main.2f781b2d.js",
+    "main.js": "/Nirspace-Technologies/static/js/main.2095e8eb.js",
     "static/js/453.f5a8343f.chunk.js": "/Nirspace-Technologies/static/js/453.f5a8343f.chunk.js",
     "static/media/Nirbhay.png": "/Nirspace-Technologies/static/media/Nirbhay.608a0b3d8d3fa5cd56c7.png",
     "index.html": "/Nirspace-Technologies/index.html",
     "main.cc54207c.css.map": "/Nirspace-Technologies/static/css/main.cc54207c.css.map",
-    "main.2f781b2d.js.map": "/Nirspace-Technologies/static/js/main.2f781b2d.js.map",
+    "main.2095e8eb.js.map": "/Nirspace-Technologies/static/js/main.2095e8eb.js.map",
     "453.f5a8343f.chunk.js.map": "/Nirspace-Technologies/static/js/453.f5a8343f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc54207c.css",
-    "static/js/main.2f781b2d.js"
+    "static/js/main.2095e8eb.js"
   ]
 }
