@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 80 V20 L70 80 V20" 
+        stroke="url(#favGrad)" 
+        stroke-width="10" 
+        fill="none" 
+        stroke-linecap="round"/>
+  <circle cx="85" cy="22" r="6" fill="#00E5FF"/>
+</svg>
