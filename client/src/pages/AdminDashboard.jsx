@@ -7,7 +7,7 @@ const [leads,setLeads] = useState([]);
 const [loading,setLoading] = useState(true);
 const [selectedProject,setSelectedProject] = useState(null);
 
-/* ================= FETCH LEADS ================= */
+/* ================= FETCH ================= */
 useEffect(()=>{
 
 const fetchLeads = async () => {
@@ -52,7 +52,7 @@ fetchLeads();
 },[]);
 
 
-/* ================= DELETE LEAD ================= */
+/* ================= DELETE ================= */
 const deleteLead = async (id) => {
 
 try{
@@ -186,7 +186,7 @@ return(
 <td>{lead.name}</td>
 <td>{lead.email}</td>
 
-{/* 🔥 PROJECT VIEW BUTTON */}
+
 <td>
 <button
 className="view-btn"
